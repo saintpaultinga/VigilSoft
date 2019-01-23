@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">VigilSoft</string>
+    <string name="edlogin_hint">Username</string>
+    <string name="editpass_hint">Password</string>
+    <string name="blogin">Login</string>
+    <string name="pindelia_logo">Pindelia Logo</string>
+    <string name="enter_valid_username">Please entered a valid username</string>
+    <string name="enter_valid_password">Please enter a valid spassword</string>
+    <string name="next">Suivant</string>
+    <string name="applications">VigilSoft</string>
 </resources>
