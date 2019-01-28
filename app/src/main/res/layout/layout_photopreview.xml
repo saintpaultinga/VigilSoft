@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/signelayout"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/photoid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/commande"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        />
+    <RelativeLayout
+        android:id="@+id/commande"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_style"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@drawable/bstyle"
+            style="@style/blabelstyle"
+            android:layout_height="50dp"
+            android:id="@+id/exit"
+            android:text="@string/exit"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

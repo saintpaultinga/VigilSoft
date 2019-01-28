@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pindelia.android.vigilsoft.IdTypeActivity"
+    tools:showIn="@layout/app_bar_menu">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_two"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp"
+        >
+        <RelativeLayout
+            android:id="@+id/layoutr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtv0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numobile"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                style="@style/labelstyle"
+                android:ems="2"
+                />
+            <EditText
+                android:id="@+id/edmobile"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/txtv0"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="5dp"
+                android:inputType="number"
+                android:background="@drawable/editstyle"
+                android:maxLength="8"
+                android:focusable="true"
+                android:textColor="#000000"
+                />
+
+            <Button
+                android:id="@+id/noting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edmobile"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"
+                android:background="@color/md_indigo_700"
+                android:clickable="false"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="@string/choix"
+                android:textColor="@color/md_light_blue_50" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list_item"
+                android:layout_below="@id/noting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_marginTop="15dp"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

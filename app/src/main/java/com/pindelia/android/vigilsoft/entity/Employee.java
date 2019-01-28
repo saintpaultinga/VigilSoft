@@ -13,6 +13,11 @@ public class Employee {
     @ColumnInfo(name = "last_name")
     private String lastName;
 
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }

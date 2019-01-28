@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:id="@+id/scro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/firstImg"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:id="@+id/imgfrontside"
+            android:background="@color/md_indigo_50"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/secondImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/firstImg">
+
+        <ImageView
+            android:id="@+id/imgbackside"
+            android:background="@color/md_indigo_100"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/baction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_indigo_A200"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/Btakefront"
+            style="@style/blabelstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/components_margin"
+            android:background="@drawable/background_style"
+            android:onClick="takePhotoHandler"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/facep"
+            android:textColor="@color/md_blue_50" />
+
+        <Button
+            android:id="@+id/Btakeback"
+            style="@style/blabelstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/components_margin"
+            android:background="@drawable/background_style"
+            android:onClick="takePhotoHandler1"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/arp"
+            android:textColor="@color/md_blue_50" />
+    </RelativeLayout>
+</RelativeLayout>

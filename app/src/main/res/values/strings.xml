@@ -8,4 +8,108 @@
     <string name="enter_valid_password">Please enter a valid spassword</string>
     <string name="next">Suivant</string>
     <string name="applications">VigilSoft</string>
+
+    <!--string be updated -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titre_formulaire"><b>FORMULAIRE D\'ENREGISTREMENT</b></string>
+    <string name="detail_abonne"><b>LES DETAILS SUR L\'ABONNE</b></string>
+    <string name="titre_choix"><b>CHOIX DU TYPE DE LA PIECE</b></string>
+    <string name="login_title"><b>INTERFACE DE CONNEXION</b></string>
+    <string name="numobile">Numéro de téléphone: </string>
+    <string name="numtel">numéro mobile</string>
+    <string name="nom">Nom(s)</string>
+    <string name="prenom">Prénom(s)</string>
+    <string name="made_by">Copyright ©2016, Pindelia</string>
+    <string name="numpiece">N° pièce</string>
+    <string name="birthday">Date de naissance</string>
+    <string name="civilite">Genre</string>
+    <string name="profession">Personne Visitée</string>
+    <string name="adresse">Objet de la visite</string>
+    <string name="autre_num">Localité de l\'abonné</string>
+    <string name="pbesoin">Personne en cas de bésoin</string>
+    <string name="telpersoe">Téléphone en cas de bésoin</string>
+    <string name="adbesoin">Adresse en cas de bésoin</string>
+    <string name="mobicash">Abonnement Mobicash</string>
+    <string name="scanpiece">Scan piece</string>
+    <string name="signer">Signature</string>
+    <string name="previewp">Aperçu face</string>
+    <string name="previews">Aperçu pile</string>
+    <string name="prevpass">Aperçu du passport</string>
+    <string name="prevsign">Aperçu de la signature</string>
+    <string name="signtitle">VOTRE SIGNATURE</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="save">Sauvegarder</string>
+    <string name="modif">Modifier</string>
+    <string name="cancel">Effacer</string>
+    <string name="title_activity_statistique">Statistique</string>
+    <string name="usern">Nom d\'utilisateur</string>
+    <string name="passw">Mot de passe</string>
+    <string name="vostats">VOS STATISTIQUES</string>
+    <string name="statj">Nombre total d\'enregistrements journalier</string>
+    <string name="nbre">Nombre total d\'abonnés enregistrés</string>
+    <string name="dern">Date du dernier enregistrement</string>
+    <string name="obtenir">Mes stats</string>
+    <string name="mes_stats">ESPACE STATISTIQUE</string>
+    <string name="title_abonne_detail">Abonne Detail</string>
+    <string name="abonnes">Abonnés en attente</string>
+    <string name="empty">Il n\' y a pas de données en attente.</string>
+    <string name="title_activity_about">About</string>
+    <string name="propos"><b><br>Identity,</br></b>        est une application mobile fonctionnant sur toutes les versions supérieures à 3 de l\'OS Android.
+       Elle permet de faciliter l\'identification des abonnés des opérateurs mobiles. Conçue par <b>Pindélia@Soft</b>,elle en est à sa version V1.</string>
+    <string name="bvenue">IDENTITY</string>
+    <string name="title_activity_login">Login</string>
+    <string name="sync"><b>se connecter</b></string>
+    <string name="SyncStatus">Etat de la connexion</string>
+    <string name="ApplyBtnLbl"><b>Quitter</b></string>
+    <string name="bvenuea"><b>BIENVENUE SUR TELMOBID</b></string>
+    <string name="menu"><b>MENU PRINCIPAL</b></string>
+    <string name="numiccid"><b>Numéro ICCID</b></string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="bvenu"><b>BIENVENUE SUR IDENTITY</b></string>
+    <string name="exit"><b>Quitter</b></string>
+    <string name="infos"><b>Voulez-vous exécuter cette action?</b></string>
+    <string name="button1"><b>Oui</b></string>
+    <string name="button2"><b>Non</b></string>
+    <string name="sign"><b>VOTRE SIGNATURE</b></string>
+    <string name="suppr"><b>Supprimer</b></string>
+    <string name="choix"><b>NATURE DE LA PIECE</b></string>
+    <string name="nphoto"><b>Nouvelle capture</b></string>
+    <string name="auth"><b>TSPAPP</b></string>
+    <string name="expiry">Date d\'expiration de la carte</string>
+
+    <string-array name="cards_labels">
+        <item>CARTE D\'IDENTITE NATIONALE/CNIB</item>
+        <item>PASSEPORT NATIONAL/INTERNATIONAL</item>
+    </string-array>
+
+    <array name="cards_images">
+        <item>@drawable/id_card</item>
+        <item>@drawable/passport_icon</item>
+
+    </array>
+
+    <string-array name="civilite_array">
+        <item>Monsieur</item>
+        <item>Mademoiselle</item>
+        <item>Madame</item>
+    </string-array>
+    <string name="title_activity_menu"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="err_license">Invalid licence key</string>
+    <string name="facep">Face de la CNIB</string>
+    <string name="arp">Pile de la CNIB</string>
+    <string name="extraction">Extraction des données</string>
+    <string name="extract_error">échec de l\'extraction, veuillez reprendre la capture!</string>
+    <string name="action_cancel">action annulée!</string>
+    <string name="not_telmob">Le numéro saisi n\'est pas de Telmob!</string>
+    <string name="empty_error">Veuillez renseigner le numéro svp!</string>
+    <string name="passport_string">PASSEPORT NATIONAL ET INTERNATIONAL</string>
+    <string name="save_succes">Abonné sauvegardé avec succès!</string>
+    <string name="abonne_existe">Cet abonnée est déjà enregistré!</string>
+    <string name="not_valide">Ce numéro n\'est pas valide,svp!</string>
+    <string name="delete_message">Abonnée supprimé avec succès!</string>
+    <string name="errorString">Erreur d\\\'envoie des donnees</string>
+
 </resources>
